@@ -15,7 +15,7 @@ spec:
       containers:
       - name: queue
         image: ${REPOSITORY_TAG}
-        imagePullPolicy: Never
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
